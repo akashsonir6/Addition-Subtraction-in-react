@@ -37,7 +37,7 @@ const Assignment = () => {
             <div id="form">
 
 
-                <label htmlFor="">Enter number </label>
+                <label htmlFor=""><strong>Enter number</strong> </label>
                 <input type="number" id="Input_num" placeholder="Enter Your Number" onChange={e => setNum(+e.target.value)} />
                 <br />
 
