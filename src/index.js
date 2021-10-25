@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Cal from './Component/Cal';
+import Assignment from './Component/Assignment';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+ {/* <App/> */}
+ {/* <Cal/> */}
+ <Assignment/>
   </React.StrictMode>,
   document.getElementById('root')
 );
