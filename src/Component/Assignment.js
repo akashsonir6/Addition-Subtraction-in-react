@@ -21,7 +21,7 @@ const Assignment = () => {
 
     }
 
-    const sub = () => {
+    const sub = () => { 
         setTotal(Total - Num);
     }
 
